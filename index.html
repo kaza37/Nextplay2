@@ -13,7 +13,7 @@
     .google-style-button {
       position: absolute;
       top: 10px;
-      right: 10px;
+      left: 10px;
       display: inline-block;
       padding: 12px 24px;
       background-color: #4285f4;
@@ -26,6 +26,7 @@
       border: none;
       cursor: pointer;
       transition: background-color 0.3s;
+      z-index: 1000;  /* Add this line */
     }
 
     .google-style-button:hover {
@@ -35,7 +36,7 @@
     @media (max-width: 600px) {
       .google-style-button {
         top: 5px;
-        right: 5px;
+        left: 5px;
       }
     }
 
